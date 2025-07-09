@@ -1,0 +1,116 @@
+{
+  "home_title": "Sống KOFFI - Cà Phê Bên Lề",
+  "menu_title": "Thực Đơn - Sống KOFFI",
+  "blog_title": "Blog - Sống KOFFI",
+  "booking_title": "Đặt Bàn - Sống KOFFI",
+  "contact_title": "Liên Hệ - Sống KOFFI",
+  "login_title": "Đăng Nhập - Sống KOFFI",
+  "register_title": "Đăng Ký - Sống KOFFI",
+  
+  "nav_home": "Trang Chủ",
+  "nav_menu": "Thực Đơn",
+  "nav_blog": "Blog",
+  "nav_booking": "Đặt Bàn",
+  "nav_contact": "Liên Hệ",
+  "nav_login": "Đăng Nhập",
+  "nav_register": "Đăng Ký",
+  
+  "hero_title": "Sống một đời \"Không phí\"",
+  "hero_subtitle": "Cà Phê Bên Lề – Chuyện Đời Bên Tai",
+  "hero_cta": "Khám Phá Thực Đơn",
+  
+  "featured_title": "Sản Phẩm Nổi Bật",
+  "blog_title": "Bài Viết Mới Nhất",
+  "gallery_title": "Khoảnh Khắc Tại Sống KOFFI",
+  
+  "footer_slogan": "Sống một đời \"Không phí\"",
+  "footer_subtitle": "Cà Phê Bên Lề – Chuyện Đời Bên Tai",
+  "footer_contact": "Liên Hệ",
+  "footer_follow": "Theo Dõi",
+  
+  "menu_header": "Thực Đơn",
+  "menu_description": "Khám phá hương vị độc đáo của Sống KOFFI",
+  
+  "filter_all": "Tất Cả",
+  "filter_espresso": "Espresso",
+  "filter_cold_brew": "Cold Brew",
+  "filter_signature": "Signature",
+  "filter_dessert": "Tráng Miệng",
+  
+  "blog_header": "Blog",
+  "blog_description": "Chia sẻ những câu chuyện về cà phê và cuộc sống",
+  
+  "booking_header": "Đặt Bàn",
+  "booking_description": "Đặt chỗ để thưởng thức không gian ấm cúng tại Sống KOFFI",
+  
+  "step_info": "Thông Tin",
+  "step_datetime": "Ngày Giờ",
+  "step_preferences": "Sở Thích",
+  "step_confirm": "Xác Nhận",
+  
+  "personal_info": "Thông Tin Cá Nhân",
+  "full_name": "Họ và Tên",
+  "phone": "Số Điện Thoại",
+  "email": "Email",
+  "next": "Tiếp Theo",
+  "previous": "Quay Lại",
+  
+  "datetime_selection": "Chọn Ngày Giờ",
+  "date": "Ngày",
+  "time": "Giờ",
+  "guests": "Số Khách",
+  
+  "seating_preferences": "Sở Thích Chỗ Ngồi",
+  "sofa": "Sofa",
+  "indoor": "Trong Nhà",
+  "outdoor": "Ngoài Trời",
+  "notes": "Ghi Chú",
+  
+  "booking_summary": "Tóm Tắt Đặt Bàn",
+  "confirm_booking": "Xác Nhận Đặt Bàn",
+  
+  "booking_success": "Đặt Bàn Thành Công!",
+  "booking_success_message": "Cảm ơn bạn đã đặt bàn. Chúng tôi sẽ liên hệ với bạn sớm nhất.",
+  "close": "Đóng",
+  
+  "contact_header": "Liên Hệ",
+  "contact_description": "Hãy liên hệ với chúng tôi để được hỗ trợ tốt nhất",
+  
+  "contact_info_title": "Thông Tin Liên Hệ",
+  "address": "Địa Chỉ",
+  "opening_hours": "Giờ Mở Cửa",
+  "hours_weekday": "Thứ 2 - Thứ 6: 7:00 - 22:00",
+  "hours_weekend": "Thứ 7 - Chủ Nhật: 6:30 - 23:00",
+  
+  "feedback_form": "Gửi Phản Hồi",
+  "subject": "Chủ Đề",
+  "message": "Tin Nhắn",
+  "send_message": "Gửi Tin Nhắn",
+  
+  "find_us": "Tìm Chúng Tôi",
+  
+  "login_header": "Đăng Nhập",
+  "login_subtitle": "Chào mừng bạn trở lại với Sống KOFFI",
+  "password": "Mật Khẩu",
+  "remember_me": "Ghi nhớ đăng nhập",
+  "forgot_password": "Quên mật khẩu?",
+  "login_button": "Đăng Nhập",
+  "or": "hoặc",
+  "login_google": "Đăng nhập với Google",
+  "no_account": "Chưa có tài khoản?",
+  "register_link": "Đăng ký ngay",
+  
+  "register_header": "Đăng Ký",
+  "register_subtitle": "Tham gia cộng đồng Sống KOFFI",
+  "confirm_password": "Xác Nhận Mật Khẩu",
+  "agree_terms": "Tôi đồng ý với",
+  "terms_conditions": "Điều khoản và Điều kiện",
+  "register_button": "Đăng Ký",
+  "register_google": "Đăng ký với Google",
+  "have_account": "Đã có tài khoản?",
+  "login_link": "Đăng nhập",
+  
+  "welcome_back": "Chào Mừng Trở Lại",
+  "join_community": "Tham Gia Cộng Đồng",
+  "auth_quote": "\"Mỗi tách cà phê là một câu chuyện mới\""
+}

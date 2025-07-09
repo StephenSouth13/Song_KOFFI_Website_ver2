@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Cà Phê Đen Đá",
+    "description": "Cà phê đen truyền thống Việt Nam với đá lạnh, đậm đà và thơm ngon",
+    "price": 25000,
+    "category": "espresso",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Cà Phê Sữa Đá",
+    "description": "Cà phê đen kết hợp với sữa đặc ngọt ngào, một hương vị quen thuộc",
+    "price": 30000,
+    "category": "espresso",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Cold Brew Original",
+    "description": "Cà phê pha lạnh trong 12 tiếng, vị ngọt tự nhiên và ít chua",
+    "price": 45000,
+    "category": "cold-brew",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Sống KOFFI Signature",
+    "description": "Đặc sản riêng của quán với công thức bí mật, hương vị độc đáo",
+    "price": 55000,
+    "category": "signature",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Cappuccino",
+    "description": "Espresso kết hợp với sữa nóng tạo bọt mịn, thơm ngon đậm đà",
+    "price": 40000,
+    "category": "espresso",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Latte",
+    "description": "Espresso với nhiều sữa nóng, vị ngọt nhẹ và dễ uống",
+    "price": 42000,
+    "category": "espresso",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Cold Brew Coconut",
+    "description": "Cold brew kết hợp với nước cốt dừa tươi, vị ngọt thanh mát",
+    "price": 50000,
+    "category": "cold-brew",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Affogato",
+    "description": "Kem vanilla nguyên chất được tưới espresso nóng, tuyệt vời",
+    "price": 48000,
+    "category": "dessert",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Tiramisu",
+    "description": "Bánh tiramisu truyền thống Ý với cà phê espresso đậm đà",
+    "price": 65000,
+    "category": "dessert",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Bạc Xỉu Đá",
+    "description": "Cà phê với nhiều sữa đặc, vị ngọt đậm đà theo phong cách Sài Gòn",
+    "price": 32000,
+    "category": "signature",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Mocha",
+    "description": "Espresso kết hợp với chocolate và sữa nóng, thơm ngon hấp dẫn",
+    "price": 45000,
+    "category": "espresso",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "name": "Cold Brew Orange",
+    "description": "Cold brew với hương cam tươi mát, độc đáo và sảng khoái",
+    "price": 52000,
+    "category": "cold-brew",
+    "image": "/placeholder.svg?height=200&width=300",
+    "featured": false
+  }
+]

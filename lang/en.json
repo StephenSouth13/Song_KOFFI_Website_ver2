@@ -1,0 +1,116 @@
+{
+  "home_title": "Sống KOFFI - Roadside Coffee",
+  "menu_title": "Menu - Sống KOFFI",
+  "blog_title": "Blog - Sống KOFFI",
+  "booking_title": "Booking - Sống KOFFI",
+  "contact_title": "Contact - Sống KOFFI",
+  "login_title": "Login - Sống KOFFI",
+  "register_title": "Register - Sống KOFFI",
+  
+  "nav_home": "Home",
+  "nav_menu": "Menu",
+  "nav_blog": "Blog",
+  "nav_booking": "Booking",
+  "nav_contact": "Contact",
+  "nav_login": "Login",
+  "nav_register": "Register",
+  
+  "hero_title": "Live a Life \"Worth Living\"",
+  "hero_subtitle": "Roadside Coffee – Life Stories by Your Side",
+  "hero_cta": "Explore Menu",
+  
+  "featured_title": "Featured Products",
+  "blog_title": "Latest Posts",
+  "gallery_title": "Moments at Sống KOFFI",
+  
+  "footer_slogan": "Live a Life \"Worth Living\"",
+  "footer_subtitle": "Roadside Coffee – Life Stories by Your Side",
+  "footer_contact": "Contact",
+  "footer_follow": "Follow Us",
+  
+  "menu_header": "Menu",
+  "menu_description": "Discover the unique flavors of Sống KOFFI",
+  
+  "filter_all": "All",
+  "filter_espresso": "Espresso",
+  "filter_cold_brew": "Cold Brew",
+  "filter_signature": "Signature",
+  "filter_dessert": "Dessert",
+  
+  "blog_header": "Blog",
+  "blog_description": "Sharing stories about coffee and life",
+  
+  "booking_header": "Booking",
+  "booking_description": "Reserve your spot to enjoy the cozy atmosphere at Sống KOFFI",
+  
+  "step_info": "Information",
+  "step_datetime": "Date & Time",
+  "step_preferences": "Preferences",
+  "step_confirm": "Confirm",
+  
+  "personal_info": "Personal Information",
+  "full_name": "Full Name",
+  "phone": "Phone Number",
+  "email": "Email",
+  "next": "Next",
+  "previous": "Previous",
+  
+  "datetime_selection": "Select Date & Time",
+  "date": "Date",
+  "time": "Time",
+  "guests": "Number of Guests",
+  
+  "seating_preferences": "Seating Preferences",
+  "sofa": "Sofa",
+  "indoor": "Indoor",
+  "outdoor": "Outdoor",
+  "notes": "Notes",
+  
+  "booking_summary": "Booking Summary",
+  "confirm_booking": "Confirm Booking",
+  
+  "booking_success": "Booking Successful!",
+  "booking_success_message": "Thank you for your booking. We will contact you soon.",
+  "close": "Close",
+  
+  "contact_header": "Contact",
+  "contact_description": "Get in touch with us for the best support",
+  
+  "contact_info_title": "Contact Information",
+  "address": "Address",
+  "opening_hours": "Opening Hours",
+  "hours_weekday": "Mon - Fri: 7:00 AM - 10:00 PM",
+  "hours_weekend": "Sat - Sun: 6:30 AM - 11:00 PM",
+  
+  "feedback_form": "Send Feedback",
+  "subject": "Subject",
+  "message": "Message",
+  "send_message": "Send Message",
+  
+  "find_us": "Find Us",
+  
+  "login_header": "Login",
+  "login_subtitle": "Welcome back to Sống KOFFI",
+  "password": "Password",
+  "remember_me": "Remember me",
+  "forgot_password": "Forgot password?",
+  "login_button": "Login",
+  "or": "or",
+  "login_google": "Login with Google",
+  "no_account": "Don't have an account?",
+  "register_link": "Register now",
+  
+  "register_header": "Register",
+  "register_subtitle": "Join the Sống KOFFI community",
+  "confirm_password": "Confirm Password",
+  "agree_terms": "I agree to the",
+  "terms_conditions": "Terms and Conditions",
+  "register_button": "Register",
+  "register_google": "Register with Google",
+  "have_account": "Already have an account?",
+  "login_link": "Login",
+  
+  "welcome_back": "Welcome Back",
+  "join_community": "Join Our Community",
+  "auth_quote": "\"Every cup of coffee is a new story\""
+}

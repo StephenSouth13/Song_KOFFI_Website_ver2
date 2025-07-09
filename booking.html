@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="booking_title">Đặt Bàn - Sống KOFFI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sống KOFFI</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-lang="nav_home">Trang Chủ</a></li>
+                <li><a href="menu.html" data-lang="nav_menu">Thực Đơn</a></li>
+                <li><a href="blog.html" data-lang="nav_blog">Blog</a></li>
+                <li><a href="booking.html" class="active" data-lang="nav_booking">Đặt Bàn</a></li>
+                <li><a href="contact.html" data-lang="nav_contact">Liên Hệ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="language-toggle">
+                    <button id="langToggle" class="lang-btn">EN</button>
+                </div>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn-login" data-lang="nav_login">Đăng Nhập</a>
+                    <a href="register.html" class="btn-register" data-lang="nav_register">Đăng Ký</a>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Booking Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-lang="booking_header">Đặt Bàn</h1>
+            <p data-lang="booking_description">Đặt chỗ để thưởng thức không gian ấm cúng tại Sống KOFFI</p>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="booking-form-section">
+        <div class="container">
+            <div class="booking-container">
+                <div class="booking-steps">
+                    <div class="step active" data-step="1">
+                        <span class="step-number">1</span>
+                        <span class="step-title" data-lang="step_info">Thông Tin</span>
+                    </div>
+                    <div class="step" data-step="2">
+                        <span class="step-number">2</span>
+                        <span class="step-title" data-lang="step_datetime">Ngày Giờ</span>
+                    </div>
+                    <div class="step" data-step="3">
+                        <span class="step-number">3</span>
+                        <span class="step-title" data-lang="step_preferences">Sở Thích</span>
+                    </div>
+                    <div class="step" data-step="4">
+                        <span class="step-number">4</span>
+                        <span class="step-title" data-lang="step_confirm">Xác Nhận</span>
+                    </div>
+                </div>
+
+                <form id="bookingForm" class="booking-form">
+                    <!-- Step 1: Personal Information -->
+                    <div class="form-step active" data-step="1">
+                        <h3 data-lang="personal_info">Thông Tin Cá Nhân</h3>
+                        <div class="form-group">
+                            <label for="fullName" data-lang="full_name">Họ và Tên</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-lang="phone">Số Điện Thoại</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-lang="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <button type="button" class="btn-next" data-lang="next">Tiếp Theo</button>
+                    </div>
+
+                    <!-- Step 2: Date & Time -->
+                    <div class="form-step" data-step="2">
+                        <h3 data-lang="datetime_selection">Chọn Ngày Giờ</h3>
+                        <div class="form-group">
+                            <label for="bookingDate" data-lang="date">Ngày</label>
+                            <input type="date" id="bookingDate" name="bookingDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingTime" data-lang="time">Giờ</label>
+                            <input type="time" id="bookingTime" name="bookingTime" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests" data-lang="guests">Số Khách</label>
+                            <select id="guests" name="guests" required>
+                                <option value="1">1 người</option>
+                                <option value="2">2 người</option>
+                                <option value="3">3 người</option>
+                                <option value="4">4 người</option>
+                                <option value="5+">5+ người</option>
+                            </select>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn-prev" data-lang="previous">Quay Lại</button>
+                            <button type="button" class="btn-next" data-lang="next">Tiếp Theo</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Preferences -->
+                    <div class="form-step" data-step="3">
+                        <h3 data-lang="seating_preferences">Sở Thích Chỗ Ngồi</h3>
+                        <div class="seating-options">
+                            <div class="seating-option">
+                                <input type="radio" id="sofa" name="seating" value="sofa">
+                                <label for="sofa">
+                                    <div class="option-icon">🛋️</div>
+                                    <span data-lang="sofa">Sofa</span>
+                                </label>
+                            </div>
+                            <div class="seating-option">
+                                <input type="radio" id="indoor" name="seating" value="indoor">
+                                <label for="indoor">
+                                    <div class="option-icon">🏠</div>
+                                    <span data-lang="indoor">Trong Nhà</span>
+                                </label>
+                            </div>
+                            <div class="seating-option">
+                                <input type="radio" id="outdoor" name="seating" value="outdoor">
+                                <label for="outdoor">
+                                    <div class="option-icon">🌿</div>
+                                    <span data-lang="outdoor">Ngoài Trời</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes" data-lang="notes">Ghi Chú</label>
+                            <textarea id="notes" name="notes" rows="4" placeholder="Yêu cầu đặc biệt..."></textarea>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn-prev" data-lang="previous">Quay Lại</button>
+                            <button type="button" class="btn-next" data-lang="next">Tiếp Theo</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Confirmation -->
+                    <div class="form-step" data-step="4">
+                        <h3 data-lang="booking_summary">Tóm Tắt Đặt Bàn</h3>
+                        <div class="booking-summary" id="bookingSummary">
+                            <!-- Summary will be populated by JavaScript -->
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn-prev" data-lang="previous">Quay Lại</button>
+                            <button type="submit" class="btn-submit" data-lang="confirm_booking">Xác Nhận Đặt Bàn</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="success-content">
+                <div class="success-icon">✅</div>
+                <h3 data-lang="booking_success">Đặt Bàn Thành Công!</h3>
+                <p data-lang="booking_success_message">Cảm ơn bạn đã đặt bàn. Chúng tôi sẽ liên hệ với bạn sớm nhất.</p>
+                <button class="btn-close" data-lang="close">Đóng</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sống KOFFI</h3>
+                    <p data-lang="footer_slogan">Sống một đời "Không phí"</p>
+                    <p data-lang="footer_subtitle">Cà Phê Bên Lề – Chuyện Đời Bên Tai</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang="footer_contact">Liên Hệ</h4>
+                    <p>770B Sư Vạn Hạnh, Phường 12, Quận 10</p>
+                    <p>TP. Hồ Chí Minh, Việt Nam</p>
+                    <p>Phone: 0867 950 728</p>
+                    <p>Email: songkoffi.1706@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang="footer_follow">Theo Dõi</h4>
+                    <a href="https://www.facebook.com/SongKOFFI166" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sống KOFFI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor">
+        <div class="coffee-cup">☕</div>
+        <div class="steam"></div>
+    </div>
+
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

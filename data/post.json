@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Câu Chuyện Về Hạt Cà Phê Việt Nam",
+    "excerpt": "Khám phá hành trình từ hạt cà phê đến tách cà phê thơm ngon trong văn hóa Việt Nam...",
+    "content": "Cà phê đã trở thành một phần không thể thiếu trong đời sống người Việt Nam. Từ những vùng cao nguyên Tây Nguyên với khí hậu thuận lợi, hạt cà phê Việt Nam đã vươn ra thế giới...",
+    "image": "/placeholder.svg?height=200&width=400",
+    "date": "2024-01-15",
+    "author": "Sống KOFFI Team"
+  },
+  {
+    "id": 2,
+    "title": "Nghệ Thuật Pha Chế Cold Brew",
+    "excerpt": "Cold brew không chỉ là cách pha cà phê, mà còn là một nghệ thuật đòi hỏi sự kiên nhẫn và tỉ mỉ...",
+    "content": "Cold brew là phương pháp pha cà phê bằng nước lạnh trong thời gian dài, thường từ 12-24 tiếng. Phương pháp này tạo ra hương vị cà phê êm dịu, ít chua và có độ ngọt tự nhiên...",
+    "image": "/placeholder.svg?height=200&width=400",
+    "date": "2024-01-10",
+    "author": "Barista Minh"
+  },
+  {
+    "id": 3,
+    "title": "Không Gian Cà Phê Và Tâm Hồn",
+    "excerpt": "Tại sao không gian cà phê lại có sức hút đặc biệt với con người? Hãy cùng khám phá...",
+    "content": "Không gian cà phê không chỉ là nơi thưởng thức đồ uống, mà còn là nơi để tâm hồn nghỉ ngơi, suy ngẫm và kết nối. Âm thanh nhẹ nhàng, ánh sáng ấm áp và hương thơm của cà phê tạo nên một không gian lý tưởng...",
+    "image": "/placeholder.svg?height=200&width=400",
+    "date": "2024-01-05",
+    "author": "Sống KOFFI Team"
+  },
+  {
+    "id": 4,
+    "title": "Latte Art - Nghệ Thuật Trên Tách Cà Phê",
+    "excerpt": "Latte art là nghệ thuật tạo hình trên bề mặt cà phê, biến mỗi tách cà phê thành một tác phẩm nghệ thuật...",
+    "content": "Latte art đòi hỏi kỹ thuật đánh sữa chính xác và khả năng điều khiển dòng sữa để tạo ra những hình ảnh đẹp mắt. Từ những hình lá cơ bản đến những tác phẩm phức tạp, latte art làm tăng thêm giá trị thẩm mỹ cho tách cà phê...",
+    "image": "/placeholder.svg?height=200&width=400",
+    "date": "2024-01-01",
+    "author": "Barista An"
+  },
+  {
+    "id": 5,
+    "title": "Cà Phê Và Sức Khỏe",
+    "excerpt": "Cà phê có thực sự tốt cho sức khỏe? Hãy cùng tìm hiểu những lợi ích và tác hại của cà phê...",
+    "content": "Nghiên cứu khoa học cho thấy cà phê có nhiều lợi ích cho sức khỏe khi sử dụng đúng cách. Caffeine giúp tăng cường sự tỉnh táo, cải thiện hiệu suất làm việc và có thể giảm nguy cơ một số bệnh...",
+    "image": "/placeholder.svg?height=200&width=400",
+    "date": "2023-12-28",
+    "author": "Dr. Phương"
+  },
+  {
+    "id": 6,
+    "title": "Văn Hóa Cà Phê Vỉa Hè Sài Gòn",
+    "excerpt": "Cà phê vỉa hè là nét văn hóa đặc trưng của Sài Gòn, nơi mọi người gặp gỡ và chia sẻ...",
+    "content": "Cà phê vỉa hè Sài Gòn không chỉ là về đồ uống, mà còn là về không gian giao lưu, nơi mọi tầng lớp xã hội có thể ngồi cùng nhau, thưởng thức cà phê và trò chuyện về cuộc sống...",
+    "image": "/placeholder.svg?height=200&width=400",
+    "date": "2023-12-25",
+    "author": "Sống KOFFI Team"
+  }
+]
