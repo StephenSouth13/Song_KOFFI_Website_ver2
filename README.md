@@ -50,7 +50,42 @@
 - 📱 **Tương thích mọi thiết bị**
 
 ---
-
+🗂️ Cấu trúc thư mục
+pgsql
+Sao chép
+Chỉnh sửa
+/ (root)
+├── index.html
+├── menu.html
+├── blog.html
+├── booking.html
+├── contact.html
+├── login.html
+├── register.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── main.js
+│   └── lang.js
+├── lang/
+│   ├── vi.json
+│   └── en.json
+├── data/
+│   ├── products.json
+│   ├── posts.json
+│   └── bookings.json
+└── admin/
+    ├── login.php
+    ├── dashboard.php
+    ├── menu.php
+    ├── save_booking.php
+    ├── save_contact.php
+    ├── logout.php
+    ├── includes/
+    │   ├── header.php
+    │   └── sidebar.php
+    └── admin-style.css
+---
 ## 🔐 Tài khoản demo
 
 ```text
