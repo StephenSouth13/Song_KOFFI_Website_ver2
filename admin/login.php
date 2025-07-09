@@ -1,23 +1,24 @@
 <?php
 session_start();
 
-// Demo admin credentials
-$admin_email = 'admin@songkoffi.com';
-$admin_password = '123456';
+$validEmail = 'admin@songkoffi.com';
+$validPassword = '123456';
 
-if ($_POST) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'] ?? '';
     $password = $_POST['password'] ?? '';
-    
-    if ($email === $admin_email && $password === $admin_password) {
+
+    if ($email === $validEmail && $password === $validPassword) {
         $_SESSION['admin_logged_in'] = true;
         $_SESSION['admin_email'] = $email;
         header('Location: dashboard.php');
         exit;
     } else {
-        $error = 'Email hoặc mật khẩu không đúng';
+        echo "<script>alert('Sai tài khoản hoặc mật khẩu!'); window.location.href = '../login.html';</script>";
     }
 }
+
+
 ?>
 
 <!DOCTYPE html>

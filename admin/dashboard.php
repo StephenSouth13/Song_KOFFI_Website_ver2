@@ -1,11 +1,17 @@
 <?php
 session_start();
 
-// Check if admin is logged in
+// Tạm bật lỗi
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+// Kiểm tra login
 if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
-    header('Location: login.php');
+    header("Location: ../login.html");
     exit;
 }
+
+
 
 // Get statistics
 $products_file = '../data/products.json';
