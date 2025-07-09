@@ -51,9 +51,6 @@
 
 ---
 🗂️ Cấu trúc thư mục
-pgsql
-Sao chép
-Chỉnh sửa
 / (root)
 ├── index.html
 ├── menu.html
@@ -85,6 +82,7 @@ Chỉnh sửa
     │   ├── header.php
     │   └── sidebar.php
     └── admin-style.css
+
 ---
 ## 🔐 Tài khoản demo
 
