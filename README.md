@@ -4,6 +4,8 @@
 > **“Sống một đời 'Không phí'"**  
 > *Cà phê bên lề - Chuyện đời bên tai*
 
+>![image](https://github.com/user-attachments/assets/86e0d627-8976-46da-928b-9bde42b471c1)
+
 ---
 
 ## 🔥 Demo Tính Năng
